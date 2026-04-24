@@ -32,6 +32,7 @@ local colors = {
 	hint = "#2a8dc5",
 	statusline = "#aeeeee",
 	statusline_inactive = "#eaffff",
+	preproc = "#4a4a4a",
 }
 
 -- Editor UI
@@ -130,9 +131,10 @@ hi("@punctuation.bracket", { fg = colors.foreground })
 hi("@punctuation.delimiter", { fg = colors.foreground })
 
 
-hi("@function.macro", { fg = colors.almost_foreground, italic = true })
-hi("@lsp.type.macro", { fg = colors.almost_foreground, italic = true })
-hi("@lsp.typemod.macro", { fg = colors.almost_foreground, italic = true })
+hi("@function.macro", { fg = colors.preproc, italic = true })
+hi("@lsp.type.macro", { fg = colors.preproc, italic = true })
+hi("@lsp.typemod.macro", { fg = colors.preproc, italic = true })
+
 
 -- Git
 hi("GitGutterAdd", { fg = colors.info })
