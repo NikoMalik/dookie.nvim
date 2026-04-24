@@ -129,6 +129,10 @@ hi("@punctuation", { fg = colors.foreground })
 hi("@punctuation.bracket", { fg = colors.foreground })
 hi("@punctuation.delimiter", { fg = colors.foreground })
 
+hi("@function.macro", { fg = colors.foreground, bold = true })
+hi("@lsp.type.macro", { fg = colors.foreground, bold = true })
+hi("@lsp.typemod.macro", { fg = colors.foreground, bold = true })
+
 -- Git
 hi("GitGutterAdd", { fg = colors.info })
 hi("GitGutterChange", { fg = colors.warning })
