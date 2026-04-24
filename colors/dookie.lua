@@ -53,8 +53,8 @@ hi("CursorColumn", { bg = colors.dim_background })
 hi("MatchParen", { fg = colors.foreground, bg = colors.darker_background, underline = true })
 
 -- Search
-hi("Search", { fg = colors.foreground, bg = colors.dim_background, bold = true })
-hi("CurSearch", { fg = colors.foreground, bg = colors.search_background, bold = true })
+hi("Search", { fg = colors.foreground, bg = colors.darker_background, bold = true })
+hi("CurSearch", { fg = colors.foreground, bg = colors.statusline, bold = true })
 
 -- Spell
 hi("SpellBad", { undercurl = true, sp = colors.error })
